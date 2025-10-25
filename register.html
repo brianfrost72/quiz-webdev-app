@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration - Web Quiz App</title>
+    <!-- favicon -->
+    <link rel="stylesheet" href="assets/images/favicon.png" />
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body>
+    <!-- register form -->
+    <div class="login_form">
+      <form class="form" id="form" onsubmit="submitForm()">
+        <div class="title">Registration</div>
+        <span class="inputs">
+          <span class="inputf">
+            <input
+              type="text"
+              class="input"
+              id="sName"
+              placeholder="Your name"
+            />
+            <span class="label">Name</span>
+          </span>
+          <span class="inputf">
+            <input
+              type="text"
+              class="input"
+              id="sRoll"
+              placeholder="Your quiz number"
+            />
+            <span class="label">Quiz Number</span>
+          </span>
+          <span class="inputf">
+            <input
+              type="email"
+              class="input"
+              id="sEmail"
+              placeholder="Your email"
+            />
+            <span class="label">Email</span>
+          </span>
+          <span class="inputf">
+            <input
+              type="password"
+              class="input"
+              id="sPass"
+              placeholder="Your password"
+            />
+            <span class="label">Password</span>
+          </span>
+        </span>
+        <button type="submit" class="btn">Register</button>
+      </form>
+    </div>
+    <!-- register form end -->
+
+    <!-- js -->
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
