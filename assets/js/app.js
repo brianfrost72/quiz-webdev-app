@@ -46,29 +46,27 @@ const questions = [
 ];
 
 // Elemen DOM
-document.addEventListener("DOMContentLoaded", () => {
-  const startBtn = document.querySelector(".startBtn");
-  const login_form = document.querySelector(".login_form");
-  const emailPass = document.querySelector(".emailPass");
-  const hideBtn = document.querySelector(".hideBtn");
-  const userEmail = document.getElementById("uEmail");
-  const userPass = document.getElementById("uPass");
-  const infoBox = document.querySelector(".info_box");
-  const quizStart = document.querySelector(".quiz_container");
-  const resultbox = document.querySelector(".result_box");
-  const scoreText = document.querySelector(".score_text");
-  const inputs = document.querySelectorAll(".inputs");
-  const links = document.querySelectorAll(".links");
-  const progressbar = document.querySelector(".progressBar");
-  const form = document.getElementById("form");
-  const countDown = document.getElementById("timer");
+const startBtn = document.querySelector(".startBtn");
+const login_form = document.querySelector(".login_form");
+const emailPass = document.querySelector(".emailPass");
+const hideBtn = document.querySelector(".hideBtn");
+const userEmail = document.getElementById("uEmail");
+const userPass = document.getElementById("uPass");
+const infoBox = document.querySelector(".info_box");
+const quizStart = document.querySelector(".quiz_container");
+const resultbox = document.querySelector(".result_box");
+const scoreText = document.querySelector(".score_text");
+const inputs = document.querySelectorAll(".inputs");
+const links = document.querySelectorAll(".links");
+const progressbar = document.querySelector(".progressBar");
+const form = document.getElementById("form");
+const countDown = document.getElementById("timer");
 
-  // logika
-  let index = 0; // Question Counting
-  let score = 0; // User correct question score
-  let counter; // counter of timer
-  let timeValue = 60; // timer value
-});
+// logika
+let index = 0; // Question Counting
+let score = 0; // User correct question score
+let counter; // counter of timer
+let timeValue = 60; // timer value
 
 // Registration Form
 const signUpName = document.getElementById("sName");
